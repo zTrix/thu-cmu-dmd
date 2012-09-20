@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Application Open",
+        "target": "start"
+    },
+
+    {
+        "name": "Submit Application Form",
+        "target": "post"
+    }
+]
