@@ -1,0 +1,11 @@
+[
+    {
+        "name": "报名已经开始啦",
+        "target": "start"
+    },
+
+    {
+        "name": "请提交申请表",
+        "target": "post"
+    }
+]
