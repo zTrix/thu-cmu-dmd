@@ -25,7 +25,7 @@
         $(this).parent().addClass('active');
     });
 
-    $('#index_bar li a').on('click', function (e) {
+    $('#index_bar ul').on('click', 'a', function (e) {
         e.preventDefault();
         var t = $(this).attr('href').substr(1);
         $.ajax({url: t + '.html'}).done(function (rs) {

@@ -7,3 +7,21 @@
   background-color: #f5f5f5;
   margin-top: 70px;
 }
+
+body>.container {
+  min-height: 600px;
+}
+
+footer #copyright {
+  margin: 10px;
+}
+
+footer ul.nav {
+  float: left;
+  margin-bottom: 0px;
+}
+
+footer ul.nav li {
+  float: left;
+  margin: 8px;
+}
