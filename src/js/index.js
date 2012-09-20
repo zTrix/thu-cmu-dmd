@@ -35,6 +35,18 @@
         $(this).parent().addClass('active');
     });
 
+    $('#lang_switch').click(function (e) {
+        e.preventDefault();
+        var me = $(this);
+        var target = me.text() == 'English' ? 'en' : 'cn';
+        $.getJSON('lang.json').success(function (lang) {
+            $.each(lang[target], function (i, e) {
+                $('#' + i).text(e);
+            });
+            me.text(target == "en" ? "中文" : "English");
+        });
+    });
+
     $(function () {
         $('#nav_list a').first().click();
     });

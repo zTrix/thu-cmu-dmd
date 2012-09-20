@@ -1,0 +1,35 @@
+{
+    "cn": {
+        "frame_title": "THU-CMU联合硕士培养",
+        "page_title": "清华 - CMU 计算机联合硕士培养项目",
+        "menu_index": "首页",
+        "menu_news": "最新动态",
+        "menu_intro": "项目介绍",
+        "menu_recruit": "招生信息",
+        "menu_contact": "联系我们",
+        "menu_about": "关于",
+        "link_brand": "链接:",
+        "link_thu": "清华大学",
+        "link_thu_cs": "清华大学计算机系",
+        "link_cmu": "卡耐基梅隆大学",
+        "link_cmu_cs": "卡耐基梅隆大学计算机系",
+        "copyright": "Copyright ©2009-2012 清华大学计算机科学与技术系 All Rights Reserved"
+    },
+
+    "en": {
+        "frame_title": "THU-CMU Double Master Degree",
+        "page_title": "THU - CMU Double Master Degree Program",
+        "menu_index": "Directory",
+        "menu_news": "News",
+        "menu_intro": "Program Introduction",
+        "menu_recruit": "Recruitment",
+        "menu_contact": "Contact US",
+        "menu_about": "About",
+        "link_brand": "Links:",
+        "link_thu": "Tsinghua University",
+        "link_thu_cs": "THU Computer Science & Technology",
+        "link_cmu": "Carnegie Mellon Univeristy",
+        "link_cmu_cs": "CMU SCHOOL OF COMPUTER SCIENCE",
+        "copyright": "Copyright ©2009-2012 THU CS&T All Rights Reserved"
+    }
+}
