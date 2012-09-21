@@ -27,6 +27,17 @@ body>.container {
   padding-bottom: 70px;
 }
 
+#index_bar li {
+  background: url(../img/arrow.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+#index_bar a {
+  border: 1px solid #E5E5E5;
+}
+
 footer #copyright {
   margin: 10px;
 }

@@ -63,7 +63,7 @@
                 } else {
                     $.getJSON(path[0] + '/' + path[1] + '.json').success(function (rs) {
                         $('#index_bar').css('display', 'block');
-                        $('#content').removeClass('span12').addClass('span10');
+                        $('#content').removeClass('span12').addClass('span9');
                         ul.empty();
                         $.each(rs, function (i, e) {
                             var a = $('<a/>').attr('href', '#' + e.target).text(e.name);
@@ -82,7 +82,7 @@
                 }
             } else {
                 $.ajax({url: path[0] + '/' + path[1] + '.html'}).done(function (rs) {
-                    $('#content').removeClass('span10').addClass('span12');
+                    $('#content').removeClass('span9').addClass('span12');
                     $('#content').html(rs);
                     $('#index_bar').css('display', 'none');
                 });
